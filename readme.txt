@@ -1,4 +1,4 @@
-de incio dar a "npm i"
+de incio, dar a "npm i"
 
 
 {
@@ -21,5 +21,18 @@ my sql
 
 node index.js
 o npm start
+
+GET
+http://localhost:3000/logs?page=1&limit=1
+or 
+http://localhost:3000/logs
+
+POST
+http://localhost:3000/insertLog
+
+
+POST
+http://localhost:3000/login
+
 
 
